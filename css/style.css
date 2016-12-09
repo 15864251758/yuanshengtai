@@ -659,6 +659,94 @@ a{
 	margin: 10px 1%;
 	float: left;
 }
+.article{
+	margin-top: 140px;
+	min-height: 500px;
+}
+.article .article-title h1 {
+    font-size: 24px;
+    text-align: center;
+}
+.article .article-title p {
+    color: #9a9a9a;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 30px;
+    position: relative;
+}
+.article .article-title p a {
+    color: #9a9a9a;
+    position: absolute;
+    right: 0;
+}
+.pro-box{
+	max-width: 1000px;
+	margin: 30px auto;
+	width: 90%;
+	margin-top: 150px;
+}
+.pro-box1{
+	width: 50%;
+	float: left;
+}
+.pro-box1 img{
+	width: 100%;
+}
+.pro-box1 p {
+    height: 45px;
+    line-height: 46px;
+    text-align: center;
+    border-bottom: 1px solid #6cb92f;
+}
+.pro-box2 h1 {
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+}
+.pro-box2 p {
+    line-height: 30px;
+}
+.pro-box2{
+	width: 50%;
+	float: left;
+	padding: 30px;
+}
+.pro-list {
+    max-width: 1000px;
+    margin: 30px auto 60px;
+    width: 90%;
+    border-bottom: 2px solid #6cb92f;
+    padding-bottom: 10px;
+}
+.pro-list-box {
+    border-top: 1px solid #6cb92f;
+    padding-top: 10px;
+    margin-top: 6px;
+}
+.article-txt{
+	margin: 0 auto;
+}
+.pro-list-con {
+    width: 23%;
+    margin: 0 1%;
+    float: left;
+}
+.pro-list-con img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.pro-list-con p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
 @media (max-width: 768px) {
 	.block1-box{
 		margin-top: 40px;
@@ -755,6 +843,16 @@ a{
 	}
 	.wenhua{
 		background: none;
+	}
+	.pro-box1{
+		float: none;
+		width: 94%;
+		margin: 0 auto;
+	}
+	.pro-box2{
+		float: none;
+		width: 94%;
+		margin: 0 auto;
 	}
 }
 
